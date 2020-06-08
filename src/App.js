@@ -31,11 +31,8 @@ class App extends Component {
 
   addItem = (groceryName) => {
     console.log();
-    //step  1 create the new object(grocery)
     const newGrocery = { id: `${Math.random()}`, name: groceryName, complete: false };
-    // step 2 create a new groceries array with new object in it
     const newGroceries = [newGrocery, ...this.state.groceries];
-    //step 3 setState
     this.setState({
       groceries: newGroceries,
     });
@@ -44,8 +41,6 @@ class App extends Component {
   handleClick = (id) => {
     console.log("click");
     console.log(id);
-    // i have an id and need to find the matching id and toggle the complete in that object
-    // editing my state map
     const { groceries } = this.state;
     const newGroceries = groceries.map((grocery) => {
       if (grocery.id !== id) return grocery;
@@ -67,7 +62,6 @@ class App extends Component {
         <List 
           groceryClick={this.handleClick}
           name={"Your List"}
-          // items={this.state.groceries}
           items={this.filterGroceries()}
           />
           </div>
