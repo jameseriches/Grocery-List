@@ -22,9 +22,10 @@ class GroceryForm extends React.Component {
           name="groceryName"
           onChange={this.handleChange}
           required
-          placeholder="Add a Item"
+          placeholder="Add an Item"
         />
-        <button type="submit">Add</button>
+      
+        <button type="submit">Exterminate</button>
       </form>
     );
   }

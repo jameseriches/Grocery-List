@@ -10,7 +10,7 @@ const Todo = ({ name, complete, id, groceryClick1 }) => (
 );
 
 const styles = {
-  todo: { cursor: "pointer" },
+  todo: { cursor: "pointer"},
   complete: {
     color: "grey",
     textDecoration: "line-through",

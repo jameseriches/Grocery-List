@@ -76,6 +76,8 @@ class App extends Component {
           </div>
           <div class="ratings">
             <p>
+              <br />
+              <br />
               "5 Stars App" -Harlan
             
             </p>
