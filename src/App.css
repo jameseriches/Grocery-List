@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+html {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(20, 235, 217, 0.356);
+}
+
+
+.header{
+  margin-top: 0px;
+  padding: 20px;
+  
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  background-color: rgb(211, 32, 211);
+}
+
+.form{
+  margin-left: 20px;
+  float: left;
+  background-color: red;
+}
+
+.list {
+  margin: 20px 0px 0px 0px;
+  padding: 15px;
+  background-color: rgb(128, 252, 124);
+  font-family: Marker Felt, fantasy;
+  font-size: 25px;
+}
+
+.pic{
+  padding: 150px 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-size: 100%;
+  width: 150px;
+  background-image: url(Harlan.jpg);
+  background-repeat: no-repeat;
+  float: left;
+
+}
+.ratings{
+  float: center;
+}
+p {
+ font-size: 30px;
+ font-weight: bold;
+ font-family: American Typewriter, serif;
+ 
+}
